@@ -24,10 +24,10 @@ export default function Home() {
 
       <div className="w-full h-screen">
         <Navigation />
-        {/* <RenderModel> */}
+        <RenderModel>
           {/* <Image className="rounded-full w-60 h-60 object-cover" src={img} alt="img"/> */}
           <Wizard/>
-        {/* </RenderModel> */}
+        </RenderModel>
       </div>
     </main>
   );
