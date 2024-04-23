@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
+import img from "../../public/SR Rony.jpg"
 import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
@@ -23,9 +24,10 @@ export default function Home() {
 
       <div className="w-full h-screen">
         <Navigation />
-        <RenderModel>
-          <Wizard />
-        </RenderModel>
+        {/* <RenderModel> */}
+          {/* <Image className="rounded-full w-60 h-60 object-cover" src={img} alt="img"/> */}
+          <Wizard/>
+        {/* </RenderModel> */}
       </div>
     </main>
   );
